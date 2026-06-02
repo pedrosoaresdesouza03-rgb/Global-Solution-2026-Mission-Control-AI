@@ -64,23 +64,6 @@ Cenário crítico provocado por tempestade solar geomagnética. Os sensores dete
 
 ---
 
-## 📊 Demonstração dos Ciclos Operacionais
-[cite_start]O sistema simula o comportamento da espaçonave através de janelas temporais dinâmicas (ciclos de varredura), demonstrando a adaptabilidade dos algoritmos perante flutuações ambientais e falhas críticas[cite: 177, 183].
-
-### 🟢 Ciclo 01: Estado Nominal / Operação Segura
-Neste estágio, todos os sistemas biológicos e ambientais operam sob condições ideais. A automação permanece em modo de vigília e a IA reporta estabilidade total na nave.
-![Ciclo 1 - Operação Estável](assets/Ciclo%201%20-%20Nível%20estável.png)
-
-### 🟡 Ciclo 02: Alerta de Descompressão e Suporte Crítico
-Simulação de anomalia moderada por vazamento de pressão interna e queda severa de oxigênio disponível. O sistema dispara os protocolos de isolamento pneumático de hardware e a IA emite um diagnóstico de risco de asfixia.
-![Ciclo 2 - Anomalia Moderada](assets/Ciclo%202%20-%20Nível%20moderado.png)
-
-### 🔴 Ciclo 03: Crise por Radiação Cósmica Elevada
-Cenário crítico provocado por tempestade solar geomagnética. Os sensores detectam picos severos de radiação de fundo, provocando o acionamento emergencial automático dos defletores de plasma (escudos de força máxima), enquanto a IA orienta procedimentos de proteção biológica.
-![Ciclo 3 - Radiação Elevada](assets/Ciclo%203%20-%20Nível%20elevado.png)
-
----
-
 ## 🛠️ Pilha Tecnológica
 * [cite_start]**Linguagem Principal:** Python 3 (Scripts de automação e controle) [cite: 98]
 * [cite_start]**Motor de Inteligência Artificial:** Ollama & Llama 3.2 1B (Processamento de linguagem natural local) [cite: 58, 59]
