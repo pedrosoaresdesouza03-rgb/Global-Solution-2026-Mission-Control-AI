@@ -76,7 +76,7 @@ Cenário crítico provocado por tempestade solar geomagnética. Os sensores dete
 [cite_start]O ambiente foi configurado para ser executado de forma totalmente abstrata e automatizada na nuvem, dispensando instalações complexas na máquina local[cite: 55, 234].
 
 1. Acesse o ambiente virtual do projeto clicando no botão abaixo:
-   [![Google Colab](https://colab.research.google.com/drive/1_eo7Fq87CIzqbr_XEbFKoHgJX9TGY3l-#scrollTo=hh6-oYVCoiql)
+   [![Google Colab](https://colab.research.google.com/drive/1_eo7Fq87CIzqbr_XEbFKoHgJX9TGY3l-?usp=drive_link)
 2. Certifique-se de que a máquina virtual do ecossistema está ativa e conectada.
 3. [cite_start]No menu superior, clique em **Ambiente de Execução** e selecione **Executar tudo** (`Ctrl + F9`)[cite: 56].
 4. [cite_start]O notebook realizará autonomamente o download da engine Ollama, injetará o pacote `zstd` para extração, fará o pull do modelo Llama e iniciará o painel interativo de telemetria[cite: 60, 61, 68].
