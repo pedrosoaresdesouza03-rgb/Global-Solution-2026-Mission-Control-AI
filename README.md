@@ -1,4 +1,3 @@
-# Global-Solution-2026-Mission-Control-AI
 # 🪐 Mission Control AI — Operação Ares-V
 
 ## 🚀 Equipe de Engenharia Aeroespacial
@@ -64,6 +63,23 @@ Cenário crítico provocado por tempestade solar geomagnética. Os sensores dete
 
 ---
 
+## 📊 Demonstração dos Ciclos Operacionais
+[cite_start]O sistema simula o comportamento da espaçonave através de janelas temporais dinâmicas (ciclos de varredura), demonstrando a adaptabilidade dos algoritmos perante flutuações ambientais e falhas críticas[cite: 177, 183].
+
+### 🟢 Ciclo 01: Estado Nominal / Operação Segura
+Neste estágio, todos os sistemas biológicos e ambientais operam sob condições ideais. A automação permanece em modo de vigília e a IA reporta estabilidade total na nave.
+![Ciclo 1 - Operação Estável](assets/Ciclo%201%20-%20Nível%20estável.png)
+
+### 🟡 Ciclo 02: Alerta de Descompressão e Suporte Crítico
+Simulação de anomalia moderada por vazamento de pressão interna e queda severa de oxigênio disponível. O sistema dispara os protocolos de isolamento pneumático de hardware e a IA emite um diagnóstico de risco de asfixia.
+![Ciclo 2 - Anomalia Moderada](assets/Ciclo%202%20-%20Nível%20moderado.png)
+
+### 🔴 Ciclo 03: Crise por Radiação Cósmica Elevada
+Cenário crítico provocado por tempestade solar geomagnética. Os sensores detectam picos severos de radiação de fundo, provocando o acionamento emergencial automático dos defletores de plasma (escudos de força máxima), enquanto a IA orienta procedimentos de proteção biológica.
+![Ciclo 3 - Radiação Elevada](assets/Ciclo%203%20-%20Nível%20elevado.png)
+
+---
+
 ## 🛠️ Pilha Tecnológica
 * [cite_start]**Linguagem Principal:** Python 3 (Scripts de automação e controle) [cite: 98]
 * [cite_start]**Motor de Inteligência Artificial:** Ollama & Llama 3.2 1B (Processamento de linguagem natural local) [cite: 58, 59]
@@ -76,7 +92,7 @@ Cenário crítico provocado por tempestade solar geomagnética. Os sensores dete
 [cite_start]O ambiente foi configurado para ser executado de forma totalmente abstrata e automatizada na nuvem, dispensando instalações complexas na máquina local[cite: 55, 234].
 
 1. Acesse o ambiente virtual do projeto clicando no botão abaixo:
-   [![Google Colab](https://colab.research.google.com/drive/1_eo7Fq87CIzqbr_XEbFKoHgJX9TGY3l-?usp=drive_link)
+   [![Google Colab](https://colab.research.google.com/drive/1_eo7Fq87CIzqbr_XEbFKoHgJX9TGY3l-?usp=sharing)
 2. Certifique-se de que a máquina virtual do ecossistema está ativa e conectada.
 3. [cite_start]No menu superior, clique em **Ambiente de Execução** e selecione **Executar tudo** (`Ctrl + F9`)[cite: 56].
 4. [cite_start]O notebook realizará autonomamente o download da engine Ollama, injetará o pacote `zstd` para extração, fará o pull do modelo Llama e iniciará o painel interativo de telemetria[cite: 60, 61, 68].
